@@ -1,0 +1,41 @@
+.current {
+  margin: 0.75rem;
+  height: 80%;
+  width: 10rem;
+  border-radius: 100px;
+  overflow: hidden;
+  position: relative;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.active {
+  width: 70rem;
+  border-radius: 50px;
+}
+
+.text {
+  z-index: 10;
+  position: absolute;
+  padding-left: 0.75rem;
+  bottom: 2rem;
+  color: white;
+  font-weight: 500;
+  font-size: 2rem;
+  width: 300%;
+  opacity: 0;
+  transition: all 0.5s;
+}
+
+.text-active {
+  z-index: 10;
+  position: absolute;
+  padding-left: 0.75rem;
+  bottom: 2rem;
+  color: white;
+  font-weight: 500;
+  font-size: 2rem;
+  width: 300%;
+  opacity: 1;
+  transition: all 1s;
+}
